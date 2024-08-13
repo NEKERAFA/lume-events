@@ -8,8 +8,8 @@
 </tr>
 <tr>
 <td>
-Dende <time>{{ event.from |> date("HORA", "gl") }}</time>
-as <time>{{ event.to |> date("HORA", "gl") }}</time>
+Dende <time datetime="{{ event.when |> date('TIME') }}">{{ event.from |> date("HORA", "gl") }}</time>
+as <time datetime="{{ event.when |> date('TIME') }}">{{ event.to |> date("HORA", "gl") }}</time>
 </td>
 </tr>
 </table>
