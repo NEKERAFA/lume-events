@@ -6,7 +6,7 @@ import mdx from "lume/plugins/mdx.ts";
 
 const site = lume();
 
-site.copy("/styles.css");
+site.copy("styles.css");
 
 site.use(date({
     locales: { gl, },
