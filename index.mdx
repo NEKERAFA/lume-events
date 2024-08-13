@@ -1,0 +1,9 @@
+---
+title: Hello world
+---
+
+# Próximos eventos
+
+{events.filter((event) => event.when.getTime() > Date.now()).map((event, key) => <div key={key} dangerouslySetInnerHTML={
+    { __html: comp.event({ event }) }
+} />)}

@@ -1,0 +1,15 @@
+<table>
+<tr><th>{{ event.name }}</th></tr>
+<tr>
+<td>
+<span>{{ event.where }}</span>,
+<time datetime="{{ event.when |> date }}">{{ event.when |> date("HUMAN_DATE", "gl") }}</time>
+</td>
+</tr>
+<tr>
+<td>
+Dende <time>{{ event.from |> date("HORA", "gl") }}</time>
+as <time>{{ event.to |> date("HORA", "gl") }}</time>
+</td>
+</tr>
+</table>

@@ -1,0 +1,20 @@
+layout: layout.vto
+
+events:
+  - name: Xuntanza Godoteira
+    when: 2024-06-18
+    where: Vigo
+    from: 2024-06-18T08:00:00Z
+    to: 2024-06-18T18:00:00Z
+
+  - name: Xuntanza Godoteira
+    when: 2024-08-24
+    where: Vigo
+    from: 2024-08-24T08:00:00Z
+    to: 2024-08-24T18:00:00Z
+  
+  - name: Godot Galiza
+    when: 2025-02-22
+    where: A Coruña
+    from: 2025-02-22T09:00:00Z
+    to: 2025-02-22T19:00:00Z
